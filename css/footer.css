@@ -1,0 +1,115 @@
+.footer {
+  background: linear-gradient(90deg, #f4b93f, #9bede4);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer__nav {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  gap: 175px;
+  margin-bottom: 40px;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  align-items: end;
+}
+
+.footer-menu__item + .footer-menu__item {
+  padding-top: 10px;
+}
+.footer-menu__item {
+  font-weight: 900;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.footer-menu__item:hover {
+  color: var(--order-color2);
+}
+
+.footer {
+  background: linear-gradient(90deg, #f4b93f, #9bede4);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer__nav {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  gap: 175px;
+  margin-bottom: 40px;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.footer__bottom span {
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.footer-menu__item + .footer-menu__item {
+  padding-top: 10px;
+}
+.footer-menu__item {
+  font-weight: 900;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.footer-menu__item:hover {
+  color: var(--order-color2);
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    padding: 30px 0;
+  }
+}
+@media (max-width: 800px) {
+  .footer__logo-img {
+    display: none;
+  }
+  .footer__nav {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-menu__item + .footer-menu__item {
+    padding-top: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__nav {
+    gap: 60px;
+  }
+  .footer-menu__link {
+    font-size: 16px;
+  }
+  .footer__bottom {
+    font-size: 11px;
+  }
+}
+@media (max-width: 415px) {
+  .footer__bottom {
+    flex-wrap: wrap;
+    gap: 15px 120px;
+    justify-content: center;
+  }
+  .footer__bottom a {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

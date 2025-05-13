@@ -1,0 +1,301 @@
+.summer-menu.menu__list {
+  gap: 80px;
+}
+
+body {
+  color: #3a3a3a;
+}
+
+.summer-submenu {
+  background-color: #d8dfdb;
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.summer {
+  position: relative;
+  display: block;
+  background-image: url(../images/summer/summer11.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.summer__title {
+  padding-top: 14%;
+  position: relative;
+  text-align: center;
+  font-family: var(--font-order-title);
+  font-size: clamp(3.125rem, 2.185rem + 4.7vw, 8rem);
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+}
+.summer__subtitle {
+  position: relative;
+  margin-bottom: 8vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
+  line-height: clamp(2.625rem, 2.45rem + 0.88vw, 3.5rem);
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 2;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.0666666667);
+}
+.summer__btn {
+  display: block;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 5%;
+  margin-top: auto;
+  text-align: center;
+  padding: 28px 38px;
+  font-weight: 800;
+  font-size: 30px;
+  color: var(--accent-color);
+  background: white;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 20px;
+  box-shadow: inset 0 100px 0 0 #ffe57b;
+}
+
+.summer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100%;
+}
+
+.english-summer {
+  background-color: #fff7ee;
+  position: relative;
+  padding-top: clamp(2.5rem, 1.75rem + 3.75vw, 6.25rem);
+}
+
+.school-summer__title {
+  text-transform: uppercase;
+  position: relative;
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+  color: var(--accent-color);
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 900;
+}
+.school-summer__subtitle.h4 {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.school-summer__subtitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+.school-summer__subtitle.h4::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--accent-color);
+  margin-right: 20px;
+  bottom: 0;
+  border-radius: 50%;
+}
+.school-summer__content {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+.school-summer__img {
+  width: 600px;
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.school-summer__text {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  line-height: 1.3;
+  text-indent: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.school-summer__text span {
+  font-weight: 600;
+}
+.school-summer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.school-summer__cards-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.school-summer__cards-item {
+  position: relative;
+  max-width: 320px;
+  width: 100%;
+  aspect-ratio: 2/1;
+  text-align: center;
+  background-color: var(--order-color1);
+  transform: none;
+  transition: background-color 3s 0.2s, transform 0.3s 0.1s;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+  padding-top: 30px;
+  color: #fff;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.1333333333);
+  z-index: 5;
+}
+.school-summer__cards-item.blue {
+  background-color: var(--order-color2);
+}
+.school-summer__cards-item.green {
+  background-color: var(--order-color3);
+}
+.school-summer__cards-item.violet {
+  background-color: var(--order-color4);
+}
+.school-summer__cards-item.gray {
+  background-color: var(--order-color5);
+}
+.school-summer__cards-item:hover {
+  background-color: var(--accent-color);
+  transform: rotate(-2deg);
+}
+.school-summer__data {
+  margin-bottom: 50px;
+}
+.school-summer__data-text {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.school-summer__data-text.yellow {
+  background-color: var(--order-color1);
+}
+.school-summer__data-text.blue {
+  background-color: var(--order-color2);
+}
+.school-summer__data-text.green {
+  background-color: var(--order-color3);
+}
+.school-summer__data-text.violet {
+  background-color: var(--order-color4);
+}
+.school-summer__data-text.gray {
+  background-color: var(--order-color5);
+}
+.school-summer__data-text p:nth-child(1) {
+  margin-bottom: 10px;
+}
+.school-summer__description-text {
+  font-size: 24px;
+  text-indent: 60px;
+  line-height: 1.3;
+  margin-bottom: 50px;
+}
+.school-summer__description-text span {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+.school-summer__ad {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  color: var(--accent-color);
+  font-weight: 800;
+  line-height: 1.3;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+.school-summer__ad + p {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+.school-summer__btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 24px 36px;
+  font-weight: 800;
+  font-size: 30px;
+  color: var(--accent-color);
+  background: white;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 20px;
+  box-shadow: inset 0 100px 0 0 #ffe57b;
+  margin-bottom: 80px;
+}
+.school-summer__btn.blue {
+  box-shadow: inset 0 100px 0 0 #9bede4;
+}
+.school-summer__btn.green {
+  box-shadow: inset 0 100px 0 0 #d6e3be;
+}
+.school-summer__btn.violet {
+  box-shadow: inset 0 100px 0 0 #d8c7f5;
+}
+.school-summer__btn.gray {
+  box-shadow: inset 0 100px 0 0 #efdecd;
+}
+.school-summer__btn.yellow:hover {
+  color: var(--accent-color);
+  box-shadow: inset 0 0 0 0 #ffe57b;
+}
+.school-summer__btn.blue:hover {
+  color: var(--accent-color);
+  box-shadow: inset 0 0 0 0 #9bede4;
+}
+.school-summer__btn.green:hover {
+  color: var(--accent-color);
+  box-shadow: inset 0 0 0 0 #d6e3be;
+}
+.school-summer__btn.violet:hover {
+  color: var(--accent-color);
+  box-shadow: inset 0 0 0 0 #d8c7f5;
+}
+.school-summer__btn.gray:hover {
+  color: var(--accent-color);
+  box-shadow: inset 0 0 0 0 #efdecd;
+}
+.school-summer__btn.blue:active {
+  transform: scale(0.9);
+}
+
+.summer-separator {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent-color);
+  margin-bottom: 80px;
+}/*# sourceMappingURL=summer.css.map */
