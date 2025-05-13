@@ -126,6 +126,7 @@ body {
   border-radius: 15px;
   line-height: 1.3;
   text-indent: 30px;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -298,4 +299,122 @@ body {
   height: 2px;
   background-color: var(--accent-color);
   margin-bottom: 80px;
+}
+
+.summer-contacts {
+  position: relative;
+  z-index: 10;
+  color: var(--accent-color);
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1080px) {
+  .school-summer__content {
+    flex-direction: column;
+  }
+  .school-summer__img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .school-summer__cards {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  .school-summer__cards-item {
+    max-width: 500px;
+    width: 100%;
+    aspect-ratio: none;
+    height: 110px;
+    transition: none;
+    cursor: none;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2666666667);
+  }
+  .school-summer__text {
+    display: inline;
+    text-indent: 0;
+  }
+  .school-summer__text p {
+    text-indent: 20px;
+    text-align: justify;
+  }
+  .school-summer__description-text {
+    font-size: 20px;
+    text-indent: 40px;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  .school-summer__btn {
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 540px) {
+  .summer__title {
+    letter-spacing: 2px;
+  }
+  .summer__subtitle {
+    letter-spacing: 1.5px;
+  }
+  .school-summer__title {
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .school-summer__subtitle.h4 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .school-summer__subtitle.h4::before {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+  .summer__btn {
+    margin-bottom: 12%;
+    font-weight: 600;
+  }
+}
+@media (max-width: 440px) {
+  .school-summer__img {
+    width: 90%;
+  }
+  .school-summer__subtitle.h4 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  .school-summer__subtitle {
+    margin-bottom: 30px;
+  }
+  .school-summer__text p {
+    font-size: 16px;
+  }
+  .school-summer__data-text {
+    font-size: 18px;
+  }
+  .school-summer__data-text p:nth-child(1) {
+    margin-bottom: 5px;
+  }
+  .school-summer__cards-item {
+    padding: 15px;
+    height: 100px;
+  }
+  .school-summer__description-text {
+    font-size: 18px;
+    text-indent: 0px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .school-summer__ad + p {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=summer.css.map */
