@@ -6,6 +6,10 @@ body {
   display: none;
 }
 
+main {
+  background-color: #f2f0fa;
+}
+
 .summer-submenu {
   padding: 10px;
   background-color: rgba(222, 224, 219, 0.7);
@@ -165,7 +169,7 @@ body {
   font-weight: 600;
   padding-top: 30px;
   color: #fff;
-  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.1333333333);
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   z-index: 5;
 }
 .school-summer__cards-item.blue {
@@ -319,6 +323,11 @@ body {
   z-index: 10;
   color: var(--accent-color);
   margin-bottom: 40px;
+}
+
+.france-summer {
+  background-color: #f2f0fa;
+  padding-top: 50px;
 }
 
 @media (max-width: 1200px) {
