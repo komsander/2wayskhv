@@ -79,6 +79,7 @@ main {
   background-color: #fff7ee;
   position: relative;
   padding-top: clamp(2.5rem, 1.75rem + 3.75vw, 6.25rem);
+  padding-bottom: clamp(2.5rem, 1.75rem + 3.75vw, 6.25rem);
 }
 
 .school-summer__title {
@@ -187,6 +188,9 @@ main {
 .school-summer__cards-item.lavender {
   background-color: var(--order-color6);
 }
+.school-summer__cards-item.sky {
+  background-color: var(--order-color7);
+}
 .school-summer__cards-item:hover {
   background-color: var(--accent-color);
   transform: rotate(-2deg);
@@ -219,6 +223,9 @@ main {
 }
 .school-summer__data-text.lavender {
   background-color: var(--order-color6);
+}
+.school-summer__data-text.sky {
+  background-color: var(--order-color7);
 }
 .school-summer__data-text p:nth-child(1) {
   margin-bottom: 10px;
@@ -278,9 +285,13 @@ main {
 }
 .school-summer__btn.gray {
   box-shadow: inset 0 100px 0 0 #efdecd;
+  margin-bottom: 20px;
 }
 .school-summer__btn.lavender {
   box-shadow: inset 0 100px 0 0 #ddd1fc;
+}
+.school-summer__btn.sky {
+  box-shadow: inset 0 100px 0 0 #caeaed;
 }
 .school-summer__btn.yellow:hover {
   color: var(--accent-color);
@@ -306,6 +317,10 @@ main {
   color: var(--accent-color);
   box-shadow: inset 0 0 0 0 #ddd1fc;
 }
+.school-summer__btn.sky:hover {
+  color: var(--accent-color);
+  box-shadow: inset 0 0 0 0 #caeaed;
+}
 .school-summer__btn.blue:active {
   transform: scale(0.9);
 }
@@ -327,7 +342,8 @@ main {
 
 .france-summer {
   background-color: #f2f0fa;
-  padding-top: 50px;
+  padding-top: clamp(2.5rem, 1.75rem + 3.75vw, 6.25rem);
+  padding-bottom: clamp(2.5rem, 1.75rem + 3.75vw, 6.25rem);
 }
 
 @media (max-width: 1200px) {
@@ -455,7 +471,10 @@ main {
   .school-summer__cards-item.green {
     height: 115px;
   }
+  .school-summer__cards-item.sky {
+    height: 135px;
+  }
   .school-summer__cards-item.gray {
-    height: 120px;
+    height: 135px;
   }
 }/*# sourceMappingURL=summer.css.map */
