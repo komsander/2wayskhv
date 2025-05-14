@@ -417,4 +417,7 @@ body {
   .school-summer__ad + p {
     margin-bottom: 30px;
   }
+  .school-summer__cards-item.green {
+    height: 110px;
+  }
 }/*# sourceMappingURL=summer.css.map */
