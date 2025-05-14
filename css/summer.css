@@ -1,16 +1,15 @@
-.summer-menu.menu__list {
-  gap: 80px;
-}
-
 body {
   color: #3a3a3a;
 }
 
+.menu__list-mobile {
+  display: none;
+}
+
 .summer-submenu {
-  background-color: #d8dfdb;
-  padding: 8px;
-  margin-top: 15px;
-  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(222, 224, 219, 0.7);
+  border-radius: 10px;
 }
 
 .summer {
@@ -308,17 +307,29 @@ body {
   margin-bottom: 40px;
 }
 
-@media (max-width: 1080px) {
-  .school-summer__content {
+@media (max-width: 1200px) {
+  .menu__list-mobile {
+    display: flex;
     flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
   }
-  .school-summer__img {
-    display: block;
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
+  .menu__list.summer-mobile {
+    display: none;
   }
 }
+.school-summer__content {
+  flex-direction: column;
+}
+.school-summer__img {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
 @media (max-width: 800px) {
   .school-summer__cards {
     flex-direction: column;
